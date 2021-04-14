@@ -1,8 +1,19 @@
+/* Estilos del Header */
+
 #header-menu {
     background-color: aliceblue;
     width: 100%;
     height: 50px;
 }
 
-/* Estilos del Top Bar / Header */
+/* Estilos del Top Bar */
 
+.navbar {
+    list-style: none;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+}
