@@ -72,7 +72,10 @@ body {
 
 .footer ul, .copyright ul{ list-style: none;}
 
-.copyright ul { display: flex; }
+.copyright ul { display: flex; justify-content: center;}
+.copyright ul li a{ padding-right: 10px;;}
+
+.footer .items-nav{ display: flex;}
 
 
 /* End Footer */
