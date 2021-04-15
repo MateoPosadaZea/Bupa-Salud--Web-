@@ -40,7 +40,15 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 /* End Typo */
+
+.regular{ font-family: 'm-regular';}
+.medium{ font-family: 'm-medium';}
+.bold{ font-family: 'm-bold';}
+.black{ font-family: 'm-black';}
+
+
 
 /* Header */
 
@@ -70,12 +78,17 @@ body {
 
 /* Footer */
 
-.footer ul, .copyright ul{ list-style: none;}
+.footer{ padding: 15px 30px;}
+.footer, .copyright { background-color: #6c6e71; color: #fff;}
+.footer ul, .copyright ul{ list-style: none; color: #fff; padding: 0;}
 
-.copyright ul { display: flex; justify-content: center;}
-.copyright ul li a{ padding-right: 10px;;}
+.copyright { padding: 0 30px;}
+.copyright ul { display: flex; justify-content: center; }
+.copyright ul li a{ padding-right: 10px; color: #fff;}
 
 .footer .items-nav{ display: flex;}
 
+.footer .btn{ border: 1px solid #fff; }
+.footer .btn a{ color: #fff;}
 
 /* End Footer */
