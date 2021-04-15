@@ -70,6 +70,9 @@ body {
 
 /* Footer */
 
+.footer ul, .copyright ul{ list-style: none;}
+
+.copyright ul { display: flex; }
 
 
 /* End Footer */
