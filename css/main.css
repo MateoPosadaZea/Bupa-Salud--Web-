@@ -18,25 +18,25 @@ body {
 /* Typo */
 @font-face {
     font-family: 'm-regular';
-    src: url('../font/montserrat-regular.woff2') format('woff2'), url('../font/montserrat-regular.woff') format('woff');
+    src: url('../fonts/montserrat-regular.woff2') format('woff2'), url('../fonts/montserrat-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'm-medium';
-    src: url('../font/montserrat-medium.woff2') format('woff2'), url('../font/montserrat-medium.woff') format('woff');
+    src: url('../fonts/montserrat-medium.woff2') format('woff2'), url('../fonts/montserrat-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'm-bold';
-    src: url('../font/montserrat-bold.woff2') format('woff2'), url('../font/montserrat-bold.woff') format('woff');
+    src: url('../fonts/montserrat-bold.woff2') format('woff2'), url('../fonts/montserrat-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'm-black';
-    src: url('../font/montserrat-black.woff2') format('woff2'), url('../font/montserrat-black.woff') format('woff');
+    src: url('../fonts/montserrat-black.woff2') format('woff2'), url('../fonts/montserrat-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
