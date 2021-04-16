@@ -103,6 +103,19 @@ li {
     transition: 0.5s;
 }
 
+.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.dropdown-toggle:hover {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+
 
 /* Estilos del Header Principal */
 
@@ -142,7 +155,7 @@ a {
     background-color: transparent;
     border: 1px solid rgb(94, 94, 223);
     color:rgb(94, 94, 223);
-    padding: 5px 15px 5px 15px;
+    padding: 8px 15px 8px 15px;
     border-radius: 3px;
     font-weight: 600;
     
