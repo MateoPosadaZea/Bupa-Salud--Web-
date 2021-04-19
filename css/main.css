@@ -126,10 +126,8 @@ li {
     padding: 10px 30px 50px 15px;
 }
 
-a {
-    text-decoration: none;
-
-}
+a { text-decoration: none;  
+    /* Puntero mano */ cursor: pointer;}
 
 .link-principal:active {
     color: rgb(94, 94, 223);
@@ -190,16 +188,30 @@ a {
 .footer .btn-apps .btn{ padding: 3px 20px; margin-right: 8px;}
 
 .footer .btn{ border: 1px solid #fff; }
-.footer .btn a{ color: #fff; font-family: 'm-medium';}
+.footer .btn a{ color: #fff; font-family: 'm-medium'; }
+.footer .btn a:hover { color: #fff; opacity: .75;}
 
 .footer .contactanos h4{ font-size: 1.05rem; font-family: 'm-medium'; margin-bottom: 20px;}
+.footer .contactanos{ position: relative;}
+.footer .contactanos::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    background-color: #fff; 
+}
 
 .copyright { padding: 0 30px;}
 .copyright ul { display: flex; justify-content: center; }
 .copyright ul li a{ padding-right: 10px; color: #fff; font-size:.85rem;}
 .copyright ul li{ font-size:.85rem;}
 
-.copyright .redes-sociales ul{ justify-content: left;}
+.copyright .redes-sociales ul{ justify-content: right; float: right;}
+.copyright .redes-sociales ul li{ padding: 0 5px}
+.copyright .redes-sociales ul li a:hover{ opacity: .75;} 
 .copyright .items-politicas ul{ justify-content: left;}
 
 /* End Footer */
