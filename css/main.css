@@ -174,10 +174,25 @@ a {
 .sin-padding{ padding: 0;}
 
 .footer{ padding: 15px 30px;}
+.footer p{ font-size: .9rem;}
+
 .footer, .copyright { background-color: #6c6e71; color: #fff;}
 .footer ul, .copyright ul{ list-style: none; color: #fff; padding: 0;}
 .footer ul{ font-size:.9rem;}
-.footer ul small{ font-size: .9rem; padding-bottom: 10px;}
+.footer  ul li a{ color: #fff;;}
+.footer ul p{ font-size: .9rem; }
+
+.footer .items-nav{ display: flex; justify-content: space-between;}
+.footer .items-nav ul{ padding: 0;}
+.footer .items-nav ul li{ padding-right:10px; padding-bottom: 10px;} 
+
+.footer .btn-apps .btn a{ font-size: .9rem;}
+.footer .btn-apps .btn{ padding: 3px 20px; margin-right: 8px;}
+
+.footer .btn{ border: 1px solid #fff; }
+.footer .btn a{ color: #fff; font-family: 'm-medium';}
+
+.footer .contactanos h4{ font-size: 1.05rem; font-family: 'm-medium'; margin-bottom: 20px;}
 
 .copyright { padding: 0 30px;}
 .copyright ul { display: flex; justify-content: center; }
@@ -185,12 +200,6 @@ a {
 .copyright ul li{ font-size:.85rem;}
 
 .copyright .redes-sociales ul{ justify-content: left;}
-
-.footer .items-nav{ display: flex; justify-content: center;}
-.footer .items-nav ul{ padding: 0 5px;}
-.footer .items-nav ul li{ padding-right:10px; padding-bottom: 10px;} 
-
-.footer .btn{ border: 1px solid #fff; }
-.footer .btn a{ color: #fff;}
+.copyright .items-politicas ul{ justify-content: left;}
 
 /* End Footer */
