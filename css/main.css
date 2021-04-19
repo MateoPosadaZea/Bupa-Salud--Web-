@@ -114,8 +114,6 @@ li {
     color: black;
 }
 
-
-
 /* Estilos del Header Principal */
 
 .main-header {
@@ -173,15 +171,24 @@ a {
 
 /* Footer */
 
+.sin-padding{ padding: 0;}
+
 .footer{ padding: 15px 30px;}
 .footer, .copyright { background-color: #6c6e71; color: #fff;}
 .footer ul, .copyright ul{ list-style: none; color: #fff; padding: 0;}
+.footer ul{ font-size:.9rem;}
+.footer ul small{ font-size: .9rem; padding-bottom: 10px;}
 
 .copyright { padding: 0 30px;}
 .copyright ul { display: flex; justify-content: center; }
-.copyright ul li a{ padding-right: 10px; color: #fff;}
+.copyright ul li a{ padding-right: 10px; color: #fff; font-size:.85rem;}
+.copyright ul li{ font-size:.85rem;}
 
-.footer .items-nav{ display: flex;}
+.copyright .redes-sociales ul{ justify-content: left;}
+
+.footer .items-nav{ display: flex; justify-content: center;}
+.footer .items-nav ul{ padding: 0 5px;}
+.footer .items-nav ul li{ padding-right:10px; padding-bottom: 10px;} 
 
 .footer .btn{ border: 1px solid #fff; }
 .footer .btn a{ color: #fff;}
