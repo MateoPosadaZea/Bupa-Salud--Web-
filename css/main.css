@@ -58,10 +58,11 @@ body {
 
 /* Estilos del Top Bar */
 
-.navbar {
+.top-bar-menu li {
     list-style: none;
     font-size: 12px;
-    padding: 20px 15px 0px 15px;
+    padding: 20px 10px 0px 15px;
+    display: inline-block;
     
 }
 
@@ -166,11 +167,58 @@ a { text-decoration: none;
 
 /* Estilos NavBar */
 
-.mr-auto {
-    padding: 50px 80px 50px 50px;
+.main-header {
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 6px 5px -6px lightgray;
+}
+
+#logo-header {
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: ;
+}
+
+.navbar-collapse {
+    margin-left: 250px;
 
 }
 
+.nav-item {
+    padding: 10px;
+    margin-left: 50px;
+    font-size:.8rem;
+}
+
+.nav-link {
+    color:black;
+    font-family: 'm-bold';
+}
+
+.dropdown-menu {
+    font-size:.8rem;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-header {
+    background-color: transparent;
+    border: 1px solid rgb(94, 94, 223);
+    color:rgb(94, 94, 223);
+    padding: 8px 15px 8px 15px;
+    border-radius: 3px;
+    font-family: 'm-bold';
+}
+
+.btn-header:hover {
+    background-color: rgb(94, 94, 223);
+    border: 1px solid rgb(94, 94, 223);
+    color: white;
+    transition: 0.5s;
+}
 /* End Header */
 
 
