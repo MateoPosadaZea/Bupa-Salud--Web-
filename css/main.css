@@ -115,7 +115,7 @@ li {
 }
 
 /* Estilos del Header Principal */
-
+/*
 .main-header {
     width: 100%;
     height: 140px;
@@ -127,13 +127,13 @@ li {
 }
 
 a { text-decoration: none;  
-    /* Puntero mano */ cursor: pointer;}
+/* Puntero mano */ cursor: pointer;}
 
 .link-principal:active {
     color: rgb(94, 94, 223);
     text-decoration-line:underline;
   }
-
+/*
 .menu-principal li {
     display: inline-block;
     text-align: center;
@@ -163,10 +163,12 @@ a { text-decoration: none;
     transition: 0.5s;
 }
 
+
 /* Estilos NavBar */
 
-.navbar {
-    
+.mr-auto {
+    padding: 50px 80px 50px 50px;
+
 }
 
 /* End Header */
