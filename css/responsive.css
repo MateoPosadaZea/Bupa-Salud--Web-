@@ -1,3 +1,46 @@
-.header {
-    width: 30px;
+html, body {overflow-x:hidden;}
+
+@media (min-width: 1200px) and (max-width:1600px) {
+   
+}
+
+
+/* Extra large devices (large desktops, 1200px and up */
+@media (max-width: 1200px) {
+   
+}  /* End 1200px */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) and (max-width:1199px) {
+  
+
+/* End 992 */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:1023px) {
+
+} /* End 768px */
+
+/* Intermediate */
+@media (min-width: 768px) and (max-width: 990px) {
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+   
+} /* End 776px */
+
+/* Especial */
+@media screen and (max-height: 450px) {
+
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+	  
+}
+	
+@media (max-width: 767px) and (orientation: portrait) {
+	   
 }
