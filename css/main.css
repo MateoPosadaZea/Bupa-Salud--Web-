@@ -129,7 +129,7 @@ li {
 }
 
 .navbar-collapse {
-    margin-left: 250px;
+    margin-left: 0px;
 
 }
 
@@ -158,15 +158,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-.btn-header {
-    background-color: transparent;
-    border: 1px solid rgb(94, 94, 223);
-    color:rgb(94, 94, 223);
-    padding: 8px 15px 8px 15px;
-    border-radius: 3px;
-    font-family: 'm-bold';
 }
 
 .btn-header {
