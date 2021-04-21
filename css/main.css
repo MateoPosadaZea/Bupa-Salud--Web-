@@ -164,9 +164,10 @@ a {
     background-color: transparent;
     border: 1px solid rgb(94, 94, 223);
     color:rgb(94, 94, 223);
-    padding: 8px 15px 8px 15px;
+    padding: 8px 10px 8px 10px;
     border-radius: 3px;
     font-family: 'm-bold';
+    font-size: .8rem;
 }
 
 .btn-header:hover {
