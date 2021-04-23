@@ -10,8 +10,16 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1024px) and (max-width:1199px) {
 
-    footer .btn-apps .btn{ margin-bottom: 10px;}   
+    /* */
+    footer ul li{ font-size: .85rem;}
+    footer .btn-apps .btn{ margin-bottom: 10px;} 
+    footer .items-nav ul li {  padding-right: 0;}
+
     .copyright{padding: 10px 0;} 
+    .copyright .redes-sociales ul li a{ padding-right: 0;}
+
+    .copyright .items-politicas ul li { padding-right: 5px;}
+    .copyright .items-politicas ul li a{ font-size: .85rem; padding: 0;}
  
 } 
 /* End 992 */
@@ -20,6 +28,8 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width:1023px) {
 
+    .footer .items-nav { display: block;}
+
     footer .btn-apps .btn{ margin-bottom: 10px;}   
     footer .copyright .container-fluid{ padding: 10px 0;}
     
@@ -27,17 +37,35 @@
 
 /* Intermediate */
 @media (min-width: 768px) and (max-width: 990px) {
-  
+
+    footer .col-md-3 { flex: 0 0 auto; width: 50%; }
+    footer .col-md-6 { flex: 0 0 auto; width: 25%; }
+    footer .col-md-3.contactanos { flex: 0 0 auto; width: 25%; }
+
+    .copyright{padding: 10px 0;} 
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
+
+    .footer .items-nav { display: block;}
+    .footer .items-nav ul{  padding: 3px 0;}
+    .footer .contactanos::after { display: none; }
+    .footer .btn-apps{ margin-bottom: 15px;}
+    .footer { text-align: center;}
+
+    .copyright .redes-sociales ul { justify-content: center; float: inherit;}
+    .copyright{padding: 10px 0;} 
     
     
 } /* End 767px */
 
 /* Especial /*/
 @media screen and (max-height: 450px) {
+
+    .footer { text-align: center;}
+    .copyright .redes-sociales ul { justify-content: center; float: inherit;}
 
 }
 
