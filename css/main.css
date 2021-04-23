@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! Pixel */
+/* Pixel */
 
 /* HTML */
 html {overflow-x: hidden; position: relative;
@@ -48,101 +48,48 @@ body {
 .bold{ font-family: 'm-bold';}
 .black{ font-family: 'm-black';}
 
+/* Estilos Top */
+.top-bar-menu li {  font-size: 12px;  padding: 20px 0 0 15px; display: inline-block; text-decoration: none;
+    list-style: none;}
 
-/* Estilos del Header */
+.top-header .link { text-decoration: none; list-style: none;  color: darkslategray; font-family: 'm-medium';}
+.top-header .iconos-nav ul li {  display: inline-block; padding: 15px 0 0 15px; }
 
-#header {
-    width: 100%;
-    height: auto;
-}
-
-/* Estilos del Top Bar */
-
-.top-bar-menu li {
-    list-style: none;
-    font-size: 12px;
-    padding: 20px 10px 0px 15px;
-    display: inline-block;
-    
-}
-
-.link {
-    text-decoration: none;
-    list-style: none;
-    color: darkslategray;
-    font-family: 'm-medium';
-    
-}
-
-li {
-    text-decoration: none;
-    list-style: none;
-}
-
-.iconos-nav ul li {
-    display: inline-block;
-    padding: 15px 15px 0px 15px;
-
-}
-
-.btn-topbar {
+.top-header .btn-topbar {
     background-color: rgb(94, 94, 223);
     border: 1px solid rgb(94, 94, 223) ;
     color:white;
     padding: 5px 15px 5px 15px;
     border-radius: 3px;
     font-family: 'm-bold';
-
 }
-
-.btn-topbar:hover {
+.top-header .btn-topbar:hover {
     background-color: transparent;
     border: 1px solid rgb(94, 94, 223) ;
     color:rgb(94, 94, 223);
     padding: 5px 15px 5px 15px;
     border-radius: 3px;
     transition: 0.5s;
-}
-
-.dropdown-toggle {
-    background-color: transparent;
-    border: none;
-    color: black;
-}
-
-.dropdown-toggle:hover {
-    background-color: transparent;
-    border: none;
-    color: black;
-}
-
-/* Estilos NavBar Principal */
-
-.main-header {
-    width: 100%;
-    height: 150px;
-    box-shadow: 0px 6px 5px -6px lightgray;
-}
-
-#logo-header {
-    padding-left: 20px;
-    padding-top: 8px;
-}
-
-.navbar-collapse {
-    margin-left: 0px;
 
 }
 
-.nav-item {
-    margin-left: 50px;
-    font-size:.8rem;
-}
+.top-header .dropdown-toggle { background-color: transparent;  border: none; color: black;}
+.top-header .dropdown-menu.show{ margin-top: 2px;}
+.top-header .dropdown-toggle:hover { background-color: transparent; border: none; color: black;}
 
-.nav-link {
-    color: darkslategray;
-    font-family: 'm-bold';
-}
+.top-header .top-bar ul{ padding: 0;}
+.top-header .iconos-nav ul{ float: right; padding-right: 15px; }
+
+/* Fin Top */
+
+/* NavBar Principal */
+.main-header { height: 150px;  box-shadow: 0px 6px 5px -6px lightgray;}
+
+.navbar-collapse {  margin-left: 0px;}
+
+.nav-item { margin-left: 15px; font-size:.8rem;}
+
+.nav-link { color: darkslategray;  font-family: 'm-bold';}
 
 .dropdown-menu {
     font-size:.8rem;
