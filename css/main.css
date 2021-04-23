@@ -91,6 +91,7 @@ li {
     color:white;
     padding: 5px 15px 5px 15px;
     border-radius: 3px;
+    font-family: 'm-bold';
 
 }
 
@@ -124,7 +125,7 @@ li {
 }
 
 #logo-header {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 8px;
 }
 
@@ -134,7 +135,6 @@ li {
 }
 
 .nav-item {
-    padding: 10px;
     margin-left: 50px;
     font-size:.8rem;
 }
@@ -160,22 +160,25 @@ a {
     text-decoration: none;
 }
 
-.btn-header {
+.btn-outline-success {
     background-color: transparent;
     border: 1px solid rgb(94, 94, 223);
     color:rgb(94, 94, 223);
-    padding: 8px 10px 8px 10px;
+    padding: 0px 10px 0px 10px;
     border-radius: 3px;
     font-family: 'm-bold';
     font-size: .8rem;
+    margin-right: 10px;
+    margin-left: 45px;
 }
 
-.btn-header:hover {
+.btn-outline-success:hover {
     background-color: rgb(94, 94, 223);
     border: 1px solid rgb(94, 94, 223);
     color: white;
     transition: 0.5s;
 }
+
 /* End Header */
 
 

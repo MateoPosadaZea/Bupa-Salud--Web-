@@ -1,0 +1,10 @@
+@media (max-width: 576px) { 
+    .btn-group, .bi-globe{
+        display: none;
+    }
+
+    .bi-search {
+        margin-left: -70px;
+    }
+    
+ }
