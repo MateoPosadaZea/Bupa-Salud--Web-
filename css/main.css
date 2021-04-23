@@ -56,8 +56,8 @@ body {
 .top-header .iconos-nav ul li {  display: inline-block; padding: 15px 0 0 15px; }
 
 .top-header .btn-topbar {
-    background-color: rgb(94, 94, 223);
-    border: 1px solid rgb(94, 94, 223) ;
+    background-color: #207ac4;
+    border: 1px solid #207ac4 ;
     color:white;
     padding: 5px 15px 5px 15px;
     border-radius: 3px;
@@ -65,12 +65,11 @@ body {
 }
 .top-header .btn-topbar:hover {
     background-color: transparent;
-    border: 1px solid rgb(94, 94, 223) ;
-    color:rgb(94, 94, 223);
+    border: 1px solid #207ac4 ;
+    color:#207ac4;
     padding: 5px 15px 5px 15px;
     border-radius: 3px;
     transition: 0.5s;
-
 }
 
 .top-header .dropdown-toggle { background-color: transparent;  border: none; color: black;}
@@ -83,34 +82,24 @@ body {
 /* Fin Top */
 
 /* NavBar Principal */
-.main-header { height: 150px;  box-shadow: 0px 6px 5px -6px lightgray;}
+.top-header .main-header { height: 150px;  box-shadow: 0px 6px 5px -6px lightgray;}
 
-.navbar-collapse {  margin-left: 0px;}
+.top-header .navbar-collapse {  margin-left: 0px;}
 
-.nav-item { margin-left: 15px; font-size:.8rem;}
+.top-header .nav-item { margin-left: 15px; font-size:.8rem;}
+.top-header .nav-link { color: darkslategray;  font-family: 'm-bold';}
 
-.nav-link { color: darkslategray;  font-family: 'm-bold';}
+.top-header .dropdown-menu {  font-size:.8rem; padding: 5px;}
+.top-header .dropdown-item {  padding-bottom: 15px; padding-top: 15px; color: darkslategray; font-family: 'm-bold';}
 
-.dropdown-menu {
-    font-size:.8rem;
-    padding: 5px;
-}
+.top-header a {  text-decoration: none;}
 
-.dropdown-item {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    color: darkslategray;
-    font-family: 'm-bold';
-}
-
-a {
-    text-decoration: none;
-}
+.top-header .btn{ border-radius: 2px;}
 
 .btn-outline-success {
     background-color: transparent;
-    border: 1px solid rgb(94, 94, 223);
-    color:rgb(94, 94, 223);
+    border: 1px solid #207ac4;
+    color: #207ac4;
     padding: 0px 10px 0px 10px;
     border-radius: 3px;
     font-family: 'm-bold';
@@ -120,8 +109,8 @@ a {
 }
 
 .btn-outline-success:hover {
-    background-color: rgb(94, 94, 223);
-    border: 1px solid rgb(94, 94, 223);
+    background-color: #207ac4;
+    border: 1px solid #207ac4;
     color: white;
     transition: 0.5s;
 }
