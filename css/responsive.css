@@ -90,10 +90,10 @@
     .footer { text-align: center;}
 
     .copyright .redes-sociales ul { justify-content: center; float: inherit;}
-    .copyright{padding: 10px 0;} 
+    .copyright{padding: 10px 0; }  
     
-    
-} /* End 767px */
+     
+} /* End 767px */ 
 
 /* Especial /*/
 @media screen and (max-height: 450px) {
