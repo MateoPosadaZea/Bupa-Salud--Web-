@@ -101,7 +101,7 @@
     .footer { text-align: center;}
     .copyright .redes-sociales ul { justify-content: center; float: inherit;}
 
-    .copyright .items-politicas ul {  justify-content: center; !important}
+    .copyright .items-politicas ul {  justify-content: center !important;}
 
 }
 
